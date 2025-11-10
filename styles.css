@@ -1,0 +1,296 @@
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  padding: 40px;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #4593FF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 27px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+}
+
+header>a {
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px
+}
+
+.logo-header {
+  color: #F8FBFF;
+  font-size: 19px;
+}
+
+.logo-header>span {
+  font-weight: bold;
+}
+
+.nav-bar {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar>a {
+  color: #F8FBFF;
+  font-weight: 500;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 40px
+}
+
+.button {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: fit-content
+}
+
+.button-light {
+  color: #4593FF;
+  background-color: #F8FBFF;
+}
+
+.button-blue {
+  color: #F8FBFF;
+  background-color: #4593FF;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about {
+  padding-top: 60px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 50%;
+}
+
+h1 {
+  color: #3B4053;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px
+}
+
+.about p {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+.ambulance {
+  width: 50%;
+}
+
+.ambulance>img {
+  width: 105%
+}
+
+.services {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  margin-top: 50px
+}
+
+.service {
+  width: 400px;
+  background-color: #F8FBFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 46px 36px;
+  gap: 30px
+}
+
+.service>h2 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  color: #3B4053;
+}
+
+.service>p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #3B4053;
+}
+
+.operating-hours {
+  width: 100%;
+  font-size: 12px;
+  line-height: 22px;
+  color: #3B4053;
+}
+
+.operating-hours p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.operating-hours .days {
+  font-weight: 300;
+}
+
+.operating-hours .hours {
+  font-weight: 500;
+}
+
+hr {
+  border-top: 1px;
+  border-color: #3B4053;
+  opacity: 0.2;
+}
+
+.doctors-section {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px
+}
+
+.doctors-section>h1 {
+  padding-left: 60px;
+}
+
+.doctors {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  overflow-x: auto;
+}
+
+.doctor-card {
+  min-width: 427px;
+  background-color: #F8FBFF;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px
+}
+
+.doctor-card>img {
+  width: 110px;
+  height: 110px;
+}
+
+.doctor-card>div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.doctor-card .name {
+  font-size: 18px;
+  color: #3B4053;
+  font-weight: 500;
+}
+
+.doctor-card .category {
+  font-size: 14px;
+  background-color: #3B4053;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px
+}
+
+footer {
+  background-color: #F8FBFF;
+  height: 214px;
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  box-sizing: border-box;
+}
+
+
+.logo-footer {
+  color: #4593FF;
+  font-size: 19px;
+  margin-top: 5px;
+}
+
+footer .logo {
+  align-items: normal;
+}
+
+.logo-footer>span {
+  font-weight: bold;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px
+}
+
+.footer-menu>h3 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #3B4053;
+  margin: 0px;
+}
+
+.footer-menu>ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.footer-menu li {
+  font-size: 10px;
+  font-weight: 500;
+  color: #3B4053;
+  cursor: pointer
+}
+
+.footer-menu .button {
+  display: flex;
+  align-items: center;
+  gap: 20px
+}

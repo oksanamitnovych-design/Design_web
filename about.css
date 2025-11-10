@@ -1,0 +1,26 @@
+
+.about-us{
+  padding: 60px;
+  display:flex;
+  flex-direction: column;
+  gap:30px;
+}
+.about-us-card{
+  padding: 40px;
+  display:flex;
+  gap:40px;
+  align-items: center;
+  background-color: #F8FBFF;
+  border-radius: 10px;
+}
+.about-us-card:nth-child(even){
+  flex-direction:row-reverse;
+}
+.about-us-card>p{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 24px;
+}
+.about-us-card >img{
+  width:300px
+}
